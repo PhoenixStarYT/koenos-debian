@@ -37,6 +37,6 @@ fc-cache -vf
 
 mkdir ~/.config
 chown $(whoami): ~/.config
-mv ~/debian-starterpack/dotconfig/* ~/.config
-mv ~/debian-starterpack/bg.jpg ~/.config
-mv ~/debian-starterpack/.* ~/
+mv /home/$username/debian-starterpack/dotconfig/* /home/$username/.config
+mv home/$username/debian-starterpack/bg.jpg /home/$username/.config
+mv /home/$username/debian-starterpack/.* /home/$username/
