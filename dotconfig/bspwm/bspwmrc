@@ -71,7 +71,7 @@ bspc rule -a synergy desktop='^9'
 #Auto-Start
 urxvtc &
 lxpolkit &
-picom --config "$HOME/.config/bspwm/picom.conf" &
+picom --config "$HOME/.config/picom.conf" &
 nitrogen --set-auto "$HOME/.config/bg.jpg" &
 #/usr/bin/synergys -f -d ERROR -n studio-pc -c /etc/synergy.conf -a 192.168.69.10:24800 --log ~/.local/log/synergy.log &
 /bin/Discord --start-minimized &
