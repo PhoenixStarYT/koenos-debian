@@ -35,8 +35,14 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v1.1.0/Meslo.zip
 unzip Meslo.zip -d /usr/share/fonts
 fc-cache -vf
 
-mkdir ~/.config
-chown $(whoami): ~/.config
+# Install Synth Shell + Get config files ready
+git clone --recursive https://github.com/andresgongora/synth-shell.git
+chmod +x synth-shell/setup.sh
+cd synth-shell
+./setup.sh
+
+mkdir /home/$username/.config
+chown $(whoami): /home/$username/.config
 mv /home/$username/debian-starterpack/dotconfig/* /home/$username/.config
 mv home/$username/debian-starterpack/bg.jpg /home/$username/.config
 mv /home/$username/debian-starterpack/.* /home/$username/
