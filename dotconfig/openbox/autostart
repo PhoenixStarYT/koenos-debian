@@ -1,0 +1,4 @@
+bash ~/.screenlayout/def.sh &
+variety &
+lxpanel &
+picom --config ~/.config/picom.conf
