@@ -19,6 +19,7 @@ Global {
   fontsize=10
   background=0
   backgroundfile=/usr/share/lxpanel/images/background.png
+  align=left
 }
 Plugin {
   type=space
@@ -52,10 +53,10 @@ Plugin {
       id=pcmanfm.desktop
     }
     Button {
-      id=lxde-x-terminal-emulator.desktop
+      id=firefox.desktop
     }
     Button {
-      id=lxde-x-www-browser.desktop
+      id=kitty.desktop
     }
   }
 }
