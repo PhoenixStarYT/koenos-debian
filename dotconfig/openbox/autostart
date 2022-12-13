@@ -1,4 +1,4 @@
-# bash ~/.screenlayout/def.sh &
+# xrandr -s 1920x1080
 variety &
 lxpanel &
 picom --config ~/.config/picom.conf
