@@ -29,16 +29,20 @@ cd /usr/share/themes/
 git clone https://github.com/EliverLara/Nordic.git
 
 # Fira Code Nerd Font variant needed
+
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v1.1.0/FiraCode.zip
 unzip FiraCode.zip -d /usr/share/fonts
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v1.1.0/Meslo.zip
 unzip Meslo.zip -d /usr/share/fonts
 fc-cache -vf
 
-# Get config files ready
+# Making .config and Moving config files and background to Pictures
 
-mkdir /home/$username/.config
-chown $(whoami): /home/$username/.config
-mv /home/$username/debian-starterpack/dotconfig/* /home/$username/.config
-mv home/$username/debian-starterpack/bg.jpg /home/$username/.config
-mv /home/$username/debian-starterpack/.* /home/$username/
+cd $builddir
+mkdir -p /home/$username/.config
+mkdir -p /home/$username/.fonts
+cp .Xresources /home/$username
+cp .Xnord /home/$username
+cp -R dotconfig/* /home/$username/.config/
+mv user-dirs.dirs /home/$username/.config
+chown -R $username:$username /home/$username
