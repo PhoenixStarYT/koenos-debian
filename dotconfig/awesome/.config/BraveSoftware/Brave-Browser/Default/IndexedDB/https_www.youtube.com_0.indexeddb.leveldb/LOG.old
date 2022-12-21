@@ -1,0 +1,11 @@
+2022/04/18-17:24:39.930 680 Recovering log #9
+2022/04/18-17:24:39.978 680 Level-0 table #12: started
+2022/04/18-17:24:39.995 680 Level-0 table #12: 78629 bytes OK
+2022/04/18-17:24:40.009 680 Delete type=2 #5
+2022/04/18-17:24:40.009 680 Delete type=2 #8
+2022/04/18-17:24:40.009 680 Delete type=0 #9
+2022/04/18-17:24:40.009 680 Delete type=3 #7
+2022/04/18-17:24:43.880 5af Compacting 1@0 + 1@1 files
+2022/04/18-17:24:43.881 5af Generated table #14@0: 293 keys, 26547 bytes
+2022/04/18-17:24:43.881 5af Compacted 1@0 + 1@1 files => 26547 bytes
+2022/04/18-17:24:43.882 5af compacted to: files[ 0 1 0 0 0 0 0 ]

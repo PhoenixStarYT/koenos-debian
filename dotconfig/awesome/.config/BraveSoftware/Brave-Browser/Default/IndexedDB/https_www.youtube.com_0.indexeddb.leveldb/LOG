@@ -1,0 +1,13 @@
+2022/04/18-22:26:17.453 56e Recovering log #13
+2022/04/18-22:26:17.469 56e Level-0 table #16: started
+2022/04/18-22:26:17.512 56e Level-0 table #16: 402916 bytes OK
+2022/04/18-22:26:17.515 56e Delete type=2 #10
+2022/04/18-22:26:17.515 56e Delete type=2 #12
+2022/04/18-22:26:17.515 56e Delete type=0 #13
+2022/04/18-22:26:17.515 56e Delete type=3 #11
+2022/04/18-22:26:20.768 56c Compacting 1@0 + 1@1 files
+2022/04/18-22:26:20.772 56c Generated table #18@0: 327 keys, 35119 bytes
+2022/04/18-22:26:20.772 56c Compacted 1@0 + 1@1 files => 35119 bytes
+2022/04/18-22:26:20.773 56c compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/04/18-22:26:20.773 56c Delete type=2 #14
+2022/04/18-22:26:20.773 56c Delete type=2 #16
