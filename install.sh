@@ -39,7 +39,10 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v1.1.0/Meslo.zip
 unzip Meslo.zip -d /usr/share/fonts
 fc-cache -vf
 
-# Making .config and Moving config files and background to Pictures
+# Wallpapers
+git clone https://github.com/phoenixstaryt/koenos-Wallpapers /home/$username/.wallpaper
+
+# Making .config and Moving config files
 
 cd $builddir
 mkdir -p /home/$username/.config
@@ -49,3 +52,4 @@ cp .Xnord /home/$username
 cp -R dotconfig/* /home/$username/.config/
 mv user-dirs.dirs /home/$username/.config
 chown -R $username:$username /home/$username
+
