@@ -34,10 +34,10 @@
     <!-- with Smart placement on a multi-monitor system, try to place new windows
        on: 'Any' - any monitor, 'Mouse' - where the mouse is, 'Active' - where
        the active window is -->
-    <primaryMonitor></primaryMonitor>
+    <primaryMonitor/>
   </placement>
   <theme>
-    <name>Onyx</name>
+    <name>Nord-Openbox</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -298,13 +298,11 @@
         <command>pcmanfm</command>
       </action>
     </keybind>
-
     <keybind key="A-S-Return">
-        <action name="Execute">
-          <command>lxterminal --geometry=120x50</command>
-        </action>
+      <action name="Execute">
+        <command>lxterminal --geometry=120x50</command>
+      </action>
     </keybind>
-    
     <!--keybindings for LXPanel -->
     <keybind key="W-r">
       <action name="Execute">
@@ -757,7 +755,7 @@
   # end of the example
 -->
     <application name="lxterminal">
-        <decor>no</decor>
+      <decor>no</decor>
     </application>
   </applications>
 </openbox_config>
