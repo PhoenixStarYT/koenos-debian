@@ -57,3 +57,5 @@ cp -R dotconfig/* /home/$username/.config/
 mv user-dirs.dirs /home/$username/.config
 chown -R $username:$username /home/$username
 
+# Autoremove
+apt autoremove
