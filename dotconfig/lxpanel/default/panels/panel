@@ -51,13 +51,13 @@ Plugin {
   type=launchbar
   Config {
     Button {
-      id=thunar.desktop
-    }
-    Button {
       id=firefox-esr.desktop
     }
     Button {
       id=kitty.desktop
+    }
+    Button {
+      id=pcmanfm.desktop
     }
   }
 }
