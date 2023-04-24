@@ -3,7 +3,7 @@
 #
 
 # terminal emulator
-super + x
+super + Return
 	kitty 
 
 # program launcher
