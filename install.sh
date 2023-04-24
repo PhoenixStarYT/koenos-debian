@@ -21,7 +21,7 @@ dpkg -i 'Custom Packages/rofi_1.7.0-1_amd64.deb'
 apt update
 
 # Add base packages
-apt install unzip picom bspwm awesome openbox polybar lxsession lxpanel lightdm rofi kitty terminator thunar flameshot neofetch sxhkd git lxpolkit lxappearance xorg firefox-esr pulseaudio pavucontrol -y
+apt install vim unzip picom bspwm awesome openbox polybar lxsession lxpanel lightdm rofi kitty terminator thunar flameshot neofetch sxhkd git lxpolkit lxappearance xorg firefox-esr pulseaudio pavucontrol -y
 apt install tar papirus-icon-theme nitrogen lxappearance breeze fonts-noto-color-emoji fonts-firacode fonts-font-awesome libqt5svg5 qml-module-qtquick-controls qml-module-qtquick-controls2 variety -y
 
 # Purge LXDE
@@ -32,7 +32,7 @@ apt purge openbox-lxde-session -y
 cd /usr/share/themes/
 git clone https://github.com/EliverLara/Nordic.git
 mkdir -p /home/$username/.themes
-cp /home/$username/debian-starterpack/Nord-Openbox.tar.xz /home/$username/.themes
+cp /home/$username/koenos-debian/Nord-Openbox.tar.xz /home/$username/.themes
 tar -xf /home/$username/Nord-Openbox.tar.xz
 
 # Fira Code Nerd Font variant needed
