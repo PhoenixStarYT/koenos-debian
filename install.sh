@@ -20,7 +20,7 @@ dpkg -i 'Custom Packages/rofi_1.7.0-1_amd64.deb'
 # Update packages list
 apt update
 
-# Add base packages
+# Add base packages - add/delete packages you don't want/need
 apt install vim unzip picom bspwm awesome openbox polybar lxsession lxpanel lightdm rofi kitty terminator thunar flameshot neofetch sxhkd git lxpolkit lxappearance xorg firefox-esr pulseaudio pavucontrol -y
 apt install tar papirus-icon-theme nitrogen lxappearance breeze fonts-noto-color-emoji fonts-firacode fonts-font-awesome libqt5svg5 qml-module-qtquick-controls qml-module-qtquick-controls2 variety -y
 
